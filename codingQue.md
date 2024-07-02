@@ -1,4 +1,4 @@
-Task 1: Data Manipulation with Pandas
+# Task 1: Data Manipulation with Pandas
 Objective:
 Filter and transform a DataFrame.
 
@@ -13,7 +13,7 @@ data = {'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
 
 df = pd.DataFrame(data)
 
-# Task: Write code to filter and transform the DataFrame as described
+ Task: Write code to filter and transform the DataFrame as described
 Expected Output:
 
 # Filtered and transformed DataFrame
@@ -51,7 +51,7 @@ Expected Output:
 
 # ------------------------------------------------------------------------------------
 
-Task 2: Basic Machine Learning with scikit-learn
+# Task 2: Basic Machine Learning with scikit-learn
 Objective:
 Fit a simple linear regression model and predict a value.
 
@@ -95,7 +95,7 @@ Predicted value for x = 5: 10.999999999999998
 # ------------------------------------------------------------------------------------
 
 
-Task 3: Numpy Array Operations
+# Task 3: Numpy Array Operations
 Objective:
 Perform specific operations on a NumPy array.
 
@@ -129,7 +129,7 @@ Normalized array: [0.   0.2  0.4  0.6  0.8]
 # ------------------------------------------------------------------------------------
 
 
-Task 4: Simple Text Processing
+# Task 4: Simple Text Processing
 Objective:
 Count the number of words in a string.
 
@@ -157,7 +157,7 @@ Word count: 6
 
 # ------------------------------------------------------------------------------------
 
-Task 5: Dictionary Operations
+# Task 5: Dictionary Operations
 Objective:
 Find the key with the highest value in a dictionary.
 
