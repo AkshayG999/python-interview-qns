@@ -16,12 +16,12 @@ df = pd.DataFrame(data)
  Task: Write code to filter and transform the DataFrame as described
 Expected Output:
 
-# Filtered and transformed DataFrame
-# Expected Output:
-#       name  age  salary  is_adult
-# 1      Bob   27   54000      True
-# 3    David   32   58000      True
-# 4      Eva   29   62000      True
+ Filtered and transformed DataFrame
+ Expected Output:
+       name  age  salary  is_adult
+ 1      Bob   27   54000      True
+ 3    David   32   58000      True
+ 4      Eva   29   62000      True
 
 
 # -----ANSWER-------
@@ -34,10 +34,10 @@ data = {'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
 
 df = pd.DataFrame(data)
 
-# Filter rows where age > 25
+ Filter rows where age > 25
 filtered_df = df[df['age'] > 25]
 
-# Create a new column 'is_adult' indicating if the age is 18 or older
+ Create a new column 'is_adult' indicating if the age is 18 or older
 filtered_df['is_adult'] = filtered_df['age'] >= 18
 
 print(filtered_df)
@@ -61,31 +61,31 @@ Given the following dataset, fit a linear regression model to predict y based on
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
-# Sample data
+ Sample data
 x = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
 y = np.array([2, 3, 5, 7, 11])
 
-# Task: Write code to fit the model and predict y for x = 5
+ Task: Write code to fit the model and predict y for x = 5
 Expected Output:
 
-# Prediction for x = 5
-# Expected Output: Approximately 11 (depending on the fit)
+ Prediction for x = 5
+ Expected Output: Approximately 11 (depending on the fit)
 
 # -----ANSWER-------
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
-# Sample data
+ Sample data
 x = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
 y = np.array([2, 3, 5, 7, 11])
 
-# Initialize the model
+ Initialize the model
 model = LinearRegression()
 
-# Fit the model
+ Fit the model
 model.fit(x, y)
 
-# Predict y for x = 5
+ Predict y for x = 5
 y_pred = model.predict(np.array([[5]]))
 
 print("Predicted value for x = 5:", y_pred[0])
@@ -107,11 +107,11 @@ import numpy as np
 
 arr = np.array([3, 6, 9, 12, 15])
 
-# Task: Write code to normalize the array values between 0 and 1
+Task: Write code to normalize the array values between 0 and 1
 Expected Output:
 
-# Normalized array
-# Expected Output: array([0. , 0.2, 0.4, 0.6, 0.8, 1. ])
+Normalized array
+Expected Output: array([0. , 0.2, 0.4, 0.6, 0.8, 1. ])
 
 # -----ANSWER-------
 
@@ -119,7 +119,7 @@ import numpy as np
 
 arr = np.array([3, 6, 9, 12, 15])
 
-# Normalize the array values between 0 and 1
+Normalize the array values between 0 and 1
 normalized_arr = (arr - arr.min()) / (arr.max() - arr.min())
 
 print("Normalized array:", normalized_arr)
